@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="en">     <![endif]-->
+<!--[if IE 9]>                  <html class="ie9 no-js" lang="en">     <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="not-ie no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+    <!-- Google Web Fonts
+  ================================================== -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic:400,600' rel='stylesheet' type='text/css'>
+    <!-- Basic Page Needs
+  ================================================== -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--[if ie]><meta http-equiv='X-UA-Compatible' content="IE=edge,IE=9,IE=8,chrome=1" /><![endif]-->
+    <title>Documentation - Krinky</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Mobile Specific Metas
+  ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- CSS
+  ================================================== -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/shDocumenter.css" />
+    <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" />
+    <!-- HTML5 Shiv
+    ================================================== -->
+    <script src="js/jquery.modernizr.js"></script>
+</head>
+
+<body>
+    <nav id="documenter-nav" class="documenter-nav">
+        <div id="tm-logo">
+            <h3>Krinky</h3>
+        </div>
+        <br />
+        <ul class="navigation">
+            <li><a class="current_nav" href="#start">Start</a></li>
+            <li><a href="#installation">Installation</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#html_structure">HTML Structure</a></li>
+            <li><a href="#customization">Customization</a></li>
+            <!-- <li><a href="#contact">Contact</a></li> -->
+            <li><a href="#css_files_and_structure">CSS Files and Structure</a></li>
+            <li><a href="#sources_and_credits">Sources and Credits</a></li>
+        </ul>
+        <footer id="footer"></footer>
+    </nav>
+    <!-- Start Documenter Content -->
+    <div id="documenter-content" class="documenter-content">
+        <section id="start">
+            <div class="heading">
+                <h6>Krinky – Tailwind CSS Portfolio Template Documentation by pxdraft</h6>
+                <h1>"Krinky – Tailwind CSS Portfolio Template"</h1>
+            </div>
+            <!--/ .heading-->
+            <table class="table-description">
+                <tr>
+                    <td class="desc-column-1">
+                        <span class="author-created"><br />
+                            version:1.0 <br />
+                            By: pxdraft
+                        </span>
+                        <span class="author-link"><a href="https://themeforest.net/user/pxdraft/portfolio" target="_blank">https://themeforest.net/user/pxdraft/portfolio</a></span>
+                    </td>
+                    <td class="desc-column-2">
+                        <blockquote>
+                            <span>Thank you for purchasing my template.</span> If you have any questions that are beyond the scope of this help file, please feel free to contact me.<br /> sage.kv4@gmail.com
+                            <br />
+                            <span>Thank you!</span>
+                        </blockquote>
+                    </td>
+                </tr>
+            </table>
+            <!--/ .table-description-->
+        </section>
+        <!-- Start Installation -->
+        <section id="installation">
+            <h1>Installation</h1>
+            <p>Follow the steps below to get started with your Site Template:</p>
+            <ol>
+                <li>Open the <code class="custom">Krinky</code> Folder to find all the Template Files</li>
+                <li>You will need to Upload these files to your Web Server using FTP in order to use it on your Website.</li>
+                <li>Make sure you upload the required files/folders listed below:
+                    <ul>
+                        <li><code class="custom">index.html</code> - Index File/Homepage</li>
+                        <li><code class="custom">assets/css</code> - CSS Folder</li>
+                        <li><code class="custom">assets/img</code> - Images Folder</li>
+                        <li><code class="custom">assets/js</code> - Javacripts Folder</li>
+                        <li><code class="custom">assets/vendor</code> - Pvendor Folder</li>
+                    </ul>
+                </li>
+                <li>You're now good to go..! Start adding your Content and show off your Beautiful Personal Website in style.</li>
+            </ol>
+        </section>
+        <!-- End Installation -->
+        <!-- Start Features -->
+        <section id="features">
+            <h1>Features</h1> Krinky is an awesome vCard, CV, Resume & Portfolio template.
+            it is suitable for anyone who wants to have a personalized resume website with unique style, layout and colors.
+            all code are well commented and super easy to customize.
+            This flexible template uses fresh and clean design and allows to change it’s look to your liking in one click.<br>
+            Here is the list of its features :
+            <ul>
+                <li>Responsive Layout</li>
+                <li>SCSS included</li>
+                <li>Smoooth Transitions</li>
+                <li>Clean Code</li>
+                <li>W3C Validated</li>
+                <li>HTML5 & CSS3</li>
+                <li>Cross Browser Compatible</li>
+                <li>100% Customizable, all colors can be customized</li>
+                <li>Font Awesome Icons</li>
+                <li>Well-commented code</li>
+        </section>
+        <!-- End Features -->
+        <!-- Start HTML Structure -->
+        <section id="html_structure">
+            <h1>HTML Structure</h1>
+            <p>The template is based on Tailwind CSS- <a target="_blank" href="https://tailwindcss.com/">https://tailwindcss.com/</a></p>
+            <hr>
+            <div class="html_structure">
+                <pre class="brush: xml">
+                    <!-- - - - - - - - - Start Body - - - - - - - - - - -->
+                    <!-- Header -->
+                    <header class="main-header fixed left-0 right-0 z-[111]">
+                        <div class="container flex items-center justify-between one-page-nav relative py-5 lg:py-3">
+                            <!-- Logo -->
+                            <div class="logo">
+                                <a href="#"><img src="assets/img/logo.svg" title="" alt=""></a>
+                            </div>
+                            <!-- Mobile Toggle -->
+                            <button class="lg:hidden mobile_toggle w-[40px] flex flex-col">
+                                <span class="w-[25px] h-[2px] bg-slate-900 inline-block"></span>
+                                <span class="w-[25px] h-[2px] bg-slate-900 inline-block my-[5px]"></span>
+                                <span class="w-[25px] h-[2px] bg-slate-900 inline-block"></span>
+                            </button>
+                            <div class="navbar-collapse flex">
+                                <ul class="navbar lg:mx-auto flex flex-col lg:flex-row p-4 lg:p-0">
+                                    <li><a class="active" data-scroll-nav="0" href="#home"><span>Home</span></a></li>
+                                    <li><a data-scroll-nav="1" href="#services"><span>Services</span></a></li>
+                                    <li><a data-scroll-nav="2" href="#skill"><span>Skills</span></a></li>
+                                    <li><a data-scroll-nav="3" href="#work"><span>Portfolio</span></a></li>
+                                    <li><a data-scroll-nav="4" href="#contactus"><span>Contact</span></a></li>
+                                </ul>
+                            </div>
+                            <div class="ms-auto hidden lg:flex">
+                                <a class="px-btn px-btn-theme" data-scroll-nav="4" href="#contactus">Contact Now</a>
+                            </div>
+                        </div>
+                    </header>
+                    <!-- End Header -->
+                    <!-- Main Start -->
+                    <main class="wrapper">
+                        <!-- Section -->
+                        <section data-scroll-index="0" class="home-section">
+                            <!-- Your Code Here -->
+                        </section>
+                        <!-- End Section -->
+                    </main>
+                    <!-- End Main Start -->
+                    <footer>
+                        
+                    </footer>
+
+                    <!-- - - - - - - - - End Body - - - - - - - - - - -->
+                </pre>
+            </div>
+            <hr>
+        </section>
+        <!-- End HTML Structure -->
+        <!-- Start Customization -->
+        <section id="customization">
+            <h2>Setting up Dev Tools</h2>
+            <p>Unzip the theme package to any folder and open a command line at that location.</p>
+            <p>Please checkout Tailwind CSS official document for more details: <a href="https://tailwindcss.com/docs/installation/using-postcss" target="_blank">https://tailwindcss.com/docs/installation/using-postcss</a> </p>
+            <pre class="bg-gray-100 border rounded-lg p-3"><code class="custom">npm install</code></pre>
+            <pre class="bg-gray-100 border rounded-lg p-3"><code class="custom">npm run dev</code></pre>
+            <p></p>
+            <p>While the npm run dev command is running, files in the <code class="custom">src/main.css</code> folders will be monitored for changes. Files from the <code class="custom">dist/assets/css/main.css</code> changes will generate injected CSS.</p>
+            <p>Hit <code>CTRL+C</code> to terminate. This will stop the local server from running.</p>
+        </section>
+        <!-- End Customization -->
+        <!-- Start Contact -->
+        <!-- <section id="contact">
+            <h1>Contact</h1>
+            <p>In order to receive emails in your inbox, open <code class="custom">process_form.php</code> and go to Line 14 :
+                and replace <code class="custom">youremail@mail.com</code> with your email, that's all !</p>
+        </section> -->
+        <!-- End Contact -->
+        <!-- Start CSS Files and Structure -->
+        <section id="css_files_and_structure">
+            <h1>Folder Structure</h1>
+            <pre class="brush: xml">
+                |── templete-doc
+                |  |── Document files
+                |── templete
+                |───|─ dist
+                |───|─ src (Tailwind css file)
+                |───|─ dist
+                    |  |── assets
+                    |  |  | css
+                    |  |  | img
+                    |  |  | js
+                    |  |  | vendor
+                    |  |── index.html
+                |  |──postcss.config.js
+                |  |──tailwind.config.js
+                |  |──package.json
+           </pre>
+        </section>
+        <!-- End CSS Files and Structure -->
+        <!-- Start Sources and Credits -->
+        <section id="sources_and_credits">
+            <h1>Sources and Credits</h1>
+            <ul>
+                <li><strong>font-awesome.min.css</strong> : <a target="_blank" href="https://fontawesome.com/">https://fontawesome.com/</a></li>
+                <li><strong>Tailwind CSS</strong> : <a target="_blank" href="https://tailwindcss.com/">https://tailwindcss.com/</a></li>
+                <li><strong>magnific</strong> : <a target="_blank" href="http://dimsemenov.com/plugins/magnific-popup/">http://dimsemenov.com/plugins/magnific-popup/</a></li>
+                <li><strong>owl-carousel</strong> : <a target="_blank" href="https://owlcarousel2.github.io/OwlCarousel2/">https://owlcarousel2.github.io/OwlCarousel2/</a></li>
+                <li><strong>themify-icons</strong> : <a target="_blank" href="https://themify.me/themify-icons">https://themify.me/themify-icons</a></li>
+            </ul>
+            <p>Thank you for stop and buy. I'd be glad to help you if you have any questions relating to this template. I will try to do my best to assist.</p>
+            <p><strong>* * * * * Don't forget to rate * * * * *</strong></p>
+        </section>
+        <!-- End Sources and Credits -->
+    </div>
+    <!-- End Documenter Content -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script>
+    window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
+    </script>
+    <script src="js/jquery.easing.1.3.min.js"></script>
+    <script src="js/fancybox/jquery.fancybox.pack.js"></script>
+    <script src="js/shCore.js"></script>
+    <script src="js/shBrushCss.js"></script>
+    <script src="js/shBrushXml.js"></script>
+    <script src="js/shBrushJScript.js"></script>
+    <script>
+    SyntaxHighlighter.defaults['toolbar'] = false;
+    SyntaxHighlighter.all();
+    </script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
