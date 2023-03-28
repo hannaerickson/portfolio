@@ -564,6 +564,20 @@ html {
   --tw-backdrop-sepia: ;
 }
 
+.icon-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon-indv {
+  flex: auto;
+}
+
+.icon-indv img {
+  height: 125px;
+  width: 125px;
+}
+
 .container {
   width: 100%;
   margin-right: auto;
@@ -1410,6 +1424,10 @@ html {
   transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
 }
 
+.experience-space {
+  margin-bottom: 30px;
+}
+
 .feature-box-01:hover {
   --tw-shadow: 5px 5px 0 0;
   --tw-shadow-colored: 5px 5px 0 0 var(--tw-shadow-color);
@@ -1494,6 +1512,12 @@ html {
 .feature-box-01 p {
   --tw-text-opacity: 1;
   color: rgb(51 65 85 / var(--tw-text-opacity));
+}
+
+.skills-box {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
 }
 
 .feature-box-02 {
@@ -1717,7 +1741,7 @@ html {
 /* Contact us
 ------------------------------*/
 
-.form-control {
+/* .form-control {
   width: 100%;
   border-width: 1px;
   border-style: solid;
@@ -1741,15 +1765,15 @@ html {
 .form-label {
   margin-bottom: 8px;
   display: inline-block;
-}
+} */
 
-.contact-infos {
-  margin: 0px;
-  list-style-type: none;
+/* .contact-infos {
+  align-items: center;
+  margin-left: 50px;
   padding: 0px;
-}
+} */
 
-.contact-infos li {
+/* .contact-infos li {
   position: relative;
   display: flex;
   padding-bottom: 35px;
@@ -1757,7 +1781,7 @@ html {
 
 .contact-infos li:last-child {
   padding-bottom: 0px;
-}
+} */
 
 .contact-infos .icon {
   display: inline-flex;
@@ -1770,10 +1794,10 @@ html {
   color: rgb(15 23 42 / var(--tw-text-opacity));
 }
 
-.contact-infos .col {
+/* .contact-infos .col {
   flex: 1 1 0%;
   padding-left: 15px;
-}
+} */
 
 .contact-infos h5 {
   margin-bottom: 0.5rem;
