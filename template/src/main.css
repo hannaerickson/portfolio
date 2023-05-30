@@ -2,7 +2,7 @@
 @layer base {
 	html {
 	  @apply text-[#555555];
-	} 
+	}
   }
 @tailwind components;
 @tailwind utilities;
@@ -49,6 +49,10 @@
 	@apply bg-orange-600 text-white shadow-[6px_6px_0_-1px] shadow-yellow-400;
 }
 
+.banner-icons {
+	height: 200px;
+	width: 200px;
+}
 
 /* Background
 ------------------------------*/
@@ -184,7 +188,7 @@
 }
 
 .feature-box-02 {
-	@apply p-[15px] border-2 border-slate-900 items-center flex shadow-[0_0_0_0] shadow-slate-900 ease-in duration-300 hover:shadow-[5px_5px_0_0];	
+	@apply p-[15px] border-2 border-slate-900 items-center flex shadow-[0_0_0_0] shadow-slate-900 ease-in duration-300 hover:shadow-[5px_5px_0_0];
 }
 
 .feature-box-02 .icon {
@@ -196,7 +200,7 @@
 }
 
 .feature-box-03 {
-	@apply p-[20px] md:p-[35px] border-2 border-slate-900 shadow-[0_0_0_0] shadow-slate-900 ease-in duration-300 hover:shadow-[5px_5px_0_0] flex mb-[35px];	
+	@apply p-[20px] md:p-[35px] border-2 border-slate-900 shadow-[0_0_0_0] shadow-slate-900 ease-in duration-300 hover:shadow-[5px_5px_0_0] flex mb-[35px];
 }
 
 .feature-box-03 .feature-img {
